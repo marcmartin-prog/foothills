@@ -7,6 +7,8 @@
   --light-primary: #451411;
   --white: #ffffff;
   --black: #000000;
+  --padding: 15px;
+  --neg-padding: -15px;
 }
 
 /* lato-regular - latin */
@@ -37,7 +39,7 @@ body {
 header {
 
   justify-content: space-between;
-  padding: 1.5rem 1rem;
+  padding: 1.5rem var(--padding) 0;
   background-color: var(--primary);
 }
 
@@ -54,11 +56,24 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
+  padding-bottom: 10px;
 }
 
 .logo img{
-  height: 2.5rem;
+  height: 90%;
+  margin: auto;
+  display: block;
+}
+
+.logo{
+  background-color: var(--white);
+  width: 100vw;
+  height: 90px;
+  margin: 0 var(--neg-padding);
+  display: block;
+  top: 2px;
+  position: relative;
+  padding-top: 8px;
 }
 
 .menu{
