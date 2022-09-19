@@ -59,6 +59,10 @@ section {
   padding-bottom: 10px;
 }
 
+.hero img{
+  height: 260px;
+}
+
 .logo img{
   height: 90%;
   margin: auto;
