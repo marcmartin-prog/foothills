@@ -4,7 +4,6 @@ title: Foothills Overhead Doors
 module:
   imports:
   - path: github.com/future-wd/hugo-responsive-images
-
 imaging:
   anchor: Smart # for smart cropping when setting the fillRatio
   bgColor: '#ffffff' # when converting transparent images to formats which dont support transparency
@@ -12,7 +11,6 @@ imaging:
   quality: 75 # compression quality
   resampleFilter: Box # compression filter
 ignoreErrors: ["alt-error"] # suppress error message if no alt text has been provided.
-
 params:
   image:
     widths: [600, 900, 1300] # widths to generate if widths not specified
