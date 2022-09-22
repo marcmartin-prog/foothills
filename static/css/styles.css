@@ -7,8 +7,8 @@
   --light-primary: #451411;
   --white: #ffffff;
   --black: #000000;
-  --padding: 15px;
-  --neg-padding: -15px;
+  --padding: 20px;
+  --neg-padding: -20px;
 }
 
 /* lato-regular - latin */
@@ -55,6 +55,19 @@ h2{
   font-size: 1.875rem;
   color: var(--primary);
   text-align: center;
+}
+
+footer{
+  background-color: var(--primary);
+}
+
+footer a{
+  color: var(--white);
+  margin: auto;
+  display: block;
+  max-width: max-content;
+  text-align: center;
+  text-decoration: none;
 }
 
 header {
@@ -113,6 +126,33 @@ section {
   width: 205px;
 }
 
+.details a{
+  font-size: 10px;
+}
+
+.footer-contact{
+  margin-bottom: 30px;
+}
+
+.footer-logo img{
+  display: block;
+  margin: auto;
+  height: 113px;
+  width: 254px;
+}
+
+.footer-logo{
+  width: 100vw;
+  height: 90px;
+  margin: 0 auto 40px;
+  display: block;
+  top: 2px;
+  position: relative;
+  padding-top: 8px;
+  z-index: 10;
+  max-width: 100vw;
+}
+
 .header-row{
   display: flex;
   flex-direction: row;
@@ -136,6 +176,10 @@ section {
   color: var(--primary);
 }
 
+.hero--text{
+  margin-bottom: 37px;
+}
+
 .logo img{
   height: 80%;
   margin: auto;
@@ -151,6 +195,16 @@ section {
   top: 2px;
   position: relative;
   padding-top: 8px;
+}
+
+.logos img{
+  max-width: 222px;
+  max-height: 72px;
+  display: block;
+  margin: 62px auto;
+}
+.liftmaster{
+  height: 29px;
 }
 
 .menu{
@@ -215,8 +269,28 @@ section {
 }
 .steps h2, .steps li, .steps p{
   color: var(--white);
+}
 
+.suppliers{
+  padding-top: 40px;
+}
 
+.suppliers p{
+  color: var(--tertiary);
+  text-align: center;
+  margin-block-start: 0;
+}
+
+.suppliers h2{
+  margin-block-end: 0;
+}
+
+.works{
+  padding-top: 30px;
+}
+
+.works ol{
+  margin-bottom: 30px;
 }
 
 
