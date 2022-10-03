@@ -37,7 +37,7 @@ a{
 body {
   margin: 0;
   overflow-x: hidden;
-  background-color: var(--white);
+  background-color: var(--quinary);
 }
 
 h1{
@@ -125,6 +125,71 @@ section {
   display: block;
   width: 205px;
 }
+
+.choice h2{
+  background-color: var(--primary);
+  color: var(--tertiary);
+  font-size: 20px;
+  padding: 7px 15px;
+  border-radius: 5px;
+}
+
+.choices{
+  display: flex;
+  flex-basis: 140px;
+  gap: 10%;
+  flex-wrap: wrap;
+}
+.choices>div{
+  flex: 1;
+  padding-bottom: 31px;
+  position: relative;
+}
+.choices p{
+  text-align: center;
+  font-size: 15px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  line-height: 20px;
+}
+
+.cheap::after{
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "$";
+  background-color: rgba(255, 255, 255, 0.74);
+  padding: 4px 15px;
+    color: var(--primary);
+}
+.economy::after{
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "$$";
+  background-color: rgba(255, 255, 255, 0.74);
+  padding: 4px 12px;
+    color: var(--primary);
+}
+.premium::after{
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "$$$";
+  background-color: rgba(255, 255, 255, 0.74);
+  padding: 4px 9px;
+    color: var(--primary);
+}
+.expensive::after{
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "$$$$";
+  background-color: rgba(255, 255, 255, 0.74);
+  padding: 4px 6px;
+  color: var(--primary);
+}
+
 
 .details a{
   font-size: 10px;
@@ -256,6 +321,12 @@ section {
   text-decoration: none;
 }
 
+.secondary-hero{
+  max-width: 100%;
+  border-radius: 10px;
+  max-height: 93vw;
+}
+
 .small-header-text{
   color: var(--tertiary);
   font-size: 1rem;
@@ -283,6 +354,13 @@ section {
 
 .suppliers h2{
   margin-block-end: 0;
+}
+
+.tan-text{
+  color: var(--secondary);
+}
+.brown-text{
+  color: var(--primary);
 }
 
 .works{
