@@ -106,32 +106,16 @@ section {
 }
 
 .almond{
-  height: 92px;
   background-color: #d5d1bf;
-  border-radius: 5px;
-  width: 100%;
-  min-width: 92px;
 }
 .black{
-  height: 92px;
   background-color: #000001;
-  border-radius: 5px;
-  width: 100%;
-  min-width: 92px;
 }
 .brown{
-  height: 92px;
   background-color: #4b3a34;
-  border-radius: 5px;
-  width: 100%;
-  min-width: 92px;
 }
 .bronze{
-  height: 92px;
   background-color: #716d69;
-  border-radius: 5px;
-  width: 100%;
-  min-width: 92px;
 }
 
 .btn-main{
@@ -161,11 +145,7 @@ section {
 }
 
 .charcoal{
-  height: 92px;
   background-color: #474b4f;
-  border-radius: 5px;
-  width: 100%;
-  min-width: 92px;
 }
 
 .choice h2{
@@ -187,6 +167,39 @@ section {
   gap: 10%;
   flex-wrap: wrap;
 }
+
+.charcoal{
+  background-color: #474b4f;
+}
+
+.classic-woodgrain{
+  background-image: url("/images/classic.jpg");
+}
+.modern-woodgrain{
+  background-image: url("/images/modern.jpg");
+}
+.walnut{
+  background-image: url("/images/walnut.jpg");
+}
+.driftwood{
+  background-image: url("/images/driftwood.jpg");
+}
+.mahogany{
+  background-image: url("/images/mahogany.jpg");
+}
+.cedar{
+  background-image: url("/images/cedar.jpg");
+}
+.dark-oak{
+  background-image: url("/images/dark-oak.jpg");
+}
+.natural-oak{
+  background-image: url("/images/nat-oak.jpg");
+}
+.carbon-oak{
+  background-image: url("/images/carbon.jpg");
+}
+
 .color-choices{
   display: flex;
   flex-basis: 33%;
@@ -200,6 +213,15 @@ section {
 }
 .color-choices>div{
   flex: 1;
+  margin-bottom:18px;
+}
+
+.color-choices>div>div{
+  height: 92px;
+  width: 100%;
+  min-width: 92px;
+  border-radius: 5px;
+  background-size: cover;
 }
 .choices p, .color-choices p{
   text-align: center;
@@ -217,6 +239,7 @@ section {
   background-color: rgba(255, 255, 255, 0.74);
   padding: 4px 15px;
     color: var(--primary);
+    font-family: 'Lato', sans-serif;
 }
 .economy::after{
   position: absolute;
@@ -226,6 +249,7 @@ section {
   background-color: rgba(255, 255, 255, 0.74);
   padding: 4px 12px;
     color: var(--primary);
+    font-family: 'Lato', sans-serif;
 }
 .premium::after{
   position: absolute;
@@ -235,6 +259,7 @@ section {
   background-color: rgba(255, 255, 255, 0.74);
   padding: 4px 9px;
     color: var(--primary);
+    font-family: 'Lato', sans-serif;
 }
 .expensive::after{
   position: absolute;
@@ -244,19 +269,20 @@ section {
   background-color: rgba(255, 255, 255, 0.74);
   padding: 4px 6px;
   color: var(--primary);
+  font-family: 'Lato', sans-serif;
 }
 
 .desert-tan{
-  height: 92px;
   background-color: #cdc5b1;
-  border-radius: 5px;
-  width: 100%;
-  min-width: 92px;
 }
 
 
 .details a{
   font-size: 10px;
+}
+
+.evergreen{
+  background-color: #034834;
 }
 
 .footer-contact{
@@ -283,11 +309,11 @@ section {
 }
 
 .gray{
-  height: 92px;
   background-color: #9d9fa2;
-  border-radius: 5px;
-  width: 100%;
-  min-width: 92px;
+}
+
+.graphite{
+  background-color: #646363;
 }
 
 .header-row{
@@ -307,6 +333,45 @@ section {
 .heading{
   color: var(--black);
   text-align: center;
+}
+
+.heading-cheap, .heading-econ, .heading-prem, .heading-exp{
+  position: relative;
+  max-width: max-content;
+  display: block;
+}
+
+.heading-cheap::after{
+  position: absolute;
+  top: 0;
+  right: -15px;
+  content: "$";
+    color: #b7a68e;
+    font-family: 'Lato', sans-serif;
+}
+.heading-econ::after{
+  position: absolute;
+  top: 0;
+  right: -25px;
+  content: "$$";
+    color: #b7a68e;
+    font-family: 'Lato', sans-serif;
+}
+.heading-prem::after{
+  position: absolute;
+  top: 0;
+  right: -35px;
+  content: "$$$";
+    color: #b7a68e;
+    font-family: 'Lato', sans-serif;
+}
+.heading-exp::after{
+  position: absolute;
+  top: 0;
+  right: -45px;
+  content: "$$$$";
+    color: #b7a68e;
+    font-family: 'Lato', sans-serif;
 }
 
 .hero--text p{
@@ -395,10 +460,6 @@ section {
 
 .sandstone{
   background-color: #a09288;
-  height: 92px;
-  width: 100%;
-  border-radius: 5px;
-  min-width: 92px;
 }
 
 .secondary-hero{
@@ -445,10 +506,6 @@ section {
 
 .white{
   background-color: var(--white);
-  height: 92px;
-  border-radius: 5px;
-  width: 100%;
-  min-width: 92px;
 }
 
 .works{
