@@ -223,7 +223,7 @@ section {
   border-radius: 5px;
   background-size: cover;
 }
-.choices p, .color-choices p{
+.choices p, .color-choices p, .options-choices p{
   text-align: center;
   font-size: 15px;
   margin-block-start: 0;
@@ -458,6 +458,14 @@ section {
   text-decoration: none;
 }
 
+.options-choices{
+  display: flex;
+  gap: 10px;
+}
+.options-choices>div{
+  width: 48%;
+}
+
 .sandstone{
   background-color: #a09288;
 }
@@ -502,6 +510,17 @@ section {
 }
 .brown-text{
   color: var(--primary);
+}
+.tinted{
+  background-color: #747474;
+}
+.clear{
+  background-color: #f8f8f8;
+}
+.tinted, .clear{
+  height: 92px;
+  width: 100%;
+  border-radius: 5px;
 }
 
 .white{
