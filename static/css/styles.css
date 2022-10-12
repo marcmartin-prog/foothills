@@ -163,9 +163,12 @@ section {
 
 .choices{
   display: flex;
-  flex-basis: 140px;
   gap: 10%;
   flex-wrap: wrap;
+}
+
+.choices img{
+   width: 100%;
 }
 
 .charcoal{
@@ -210,6 +213,7 @@ section {
   flex: 1;
   padding-bottom: 31px;
   position: relative;
+  flex-basis: 140px;
 }
 .color-choices>div{
   flex: 1;
