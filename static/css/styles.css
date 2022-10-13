@@ -528,6 +528,10 @@ section {
 }
 
 .white{
+  background-color: #EAECEB;
+}
+
+.white-background{
   background-color: var(--white);
 }
 
