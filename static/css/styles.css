@@ -465,9 +465,14 @@ section {
 .options-choices{
   display: flex;
   gap: 10px;
+  flex-wrap: wrap;
 }
 .options-choices>div{
   width: 48%;
+}
+
+.options-choices img{
+  border-radius: 5px;
 }
 
 .sandstone{
