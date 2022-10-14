@@ -229,7 +229,7 @@ section {
 }
 .choices p, .color-choices p, .options-choices p{
   text-align: center;
-  font-size: 15px;
+  font-size: 14px;
   margin-block-start: 0;
   margin-block-end: 0;
   line-height: 20px;
@@ -310,6 +310,16 @@ section {
   padding-top: 8px;
   z-index: 10;
   max-width: 100vw;
+}
+
+.glass p{
+  max-width: 84%;
+}
+.glass p::after{
+  right: -24px;
+}
+.glass img{
+  max-height: 92px;
 }
 
 .gray{
@@ -473,6 +483,7 @@ section {
 
 .options-choices img{
   border-radius: 5px;
+  max-width: 100%;
 }
 
 .sandstone{
