@@ -211,20 +211,23 @@ body.lb-disable-scrolling {
 }
 
 .gallery-parent{
-  scroll-snap-type: x mandatory;
   display: flex;
-  overflow-x: scroll;
   position: relative;
-
+  flex-wrap: wrap;
+  gap: 22px;
+  margin-bottom: 52px;
 }
 
 .gallery-parent>a{
-  scroll-snap-align: start;
+  flex-basis: 164px;
 }
+
 .gallery-parent>a>img{
-width: 100vw;
-  margin: 3px;
+  border-radius: 10px;
   height: 250px;
+  width: 100%;
+  object-fit: cover;
+  height: 164px;
 }
 /* Hide scrollbar for Chrome, Safari and Opera */
 .gallery-parent::-webkit-scrollbar {
