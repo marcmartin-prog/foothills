@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="170.673" height="35.211" viewBox="0 0 170.673 35.211">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_345" data-name="Rectangle 345" width="170.673" height="35.211" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_129" data-name="Group 129" transform="translate(0 0)">
+    <g id="Group_128" data-name="Group 128" clip-path="url(#clip-path)">
+      <path id="Path_291" data-name="Path 291" d="M74.7,10.043a.187.187,0,0,0-.06-.131.179.179,0,0,0-.129-.061H62.1a.191.191,0,0,0-.135.061.2.2,0,0,0-.056.131V25.169a.184.184,0,0,0,.056.124.17.17,0,0,0,.135.061h12.42a.189.189,0,0,0,.189-.185ZM59.863,9.851H47.447a.2.2,0,0,0-.137.061.191.191,0,0,0-.053.131V25.169a.186.186,0,0,0,.19.185H59.863A.159.159,0,0,0,60,25.293a.16.16,0,0,0,.056-.124V10.043A.174.174,0,0,0,60,9.912a.177.177,0,0,0-.134-.061m-29.3,0H18.148a.2.2,0,0,0-.136.061.2.2,0,0,0-.053.131V25.169a.187.187,0,0,0,.189.185H30.567a.159.159,0,0,0,.134-.061.166.166,0,0,0,.055-.124V10.043a.181.181,0,0,0-.055-.131.177.177,0,0,0-.134-.061m14.839.192a.182.182,0,0,0-.056-.131.186.186,0,0,0-.132-.061H32.8a.206.206,0,0,0-.134.061.2.2,0,0,0-.057.131V25.169a.2.2,0,0,0,.191.185H45.218a.186.186,0,0,0,.188-.185Z" fill="#330f10"/>
+      <path id="Path_292" data-name="Path 292" d="M152.712,10.043a.186.186,0,0,0-.059-.131.179.179,0,0,0-.129-.061H140.1a.191.191,0,0,0-.135.061.2.2,0,0,0-.056.131V25.169a.184.184,0,0,0,.056.124.17.17,0,0,0,.135.061h12.42a.188.188,0,0,0,.188-.185Zm-14.84-.192H125.456a.2.2,0,0,0-.137.061.191.191,0,0,0-.053.131V25.169a.186.186,0,0,0,.19.185h12.416a.159.159,0,0,0,.134-.061.16.16,0,0,0,.056-.124V10.043a.174.174,0,0,0-.056-.131.177.177,0,0,0-.134-.061m-29.3,0H96.157a.2.2,0,0,0-.136.061.2.2,0,0,0-.053.131V25.169a.187.187,0,0,0,.189.185h12.419a.2.2,0,0,0,.189-.185V10.043a.173.173,0,0,0-.055-.131.177.177,0,0,0-.134-.061m14.839.192a.182.182,0,0,0-.056-.131.186.186,0,0,0-.132-.061H110.806a.206.206,0,0,0-.134.061.2.2,0,0,0-.057.131V25.169a.2.2,0,0,0,.191.185h12.421a.186.186,0,0,0,.188-.185Z" fill="#330f10"/>
+      <rect id="Rectangle_340" data-name="Rectangle 340" width="59.996" height="18.753" transform="translate(16.335 8.229)" fill="none" stroke="#330f10" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+      <rect id="Rectangle_341" data-name="Rectangle 341" width="64.164" height="22.916" transform="translate(14.251 6.148)" fill="none" stroke="#330f10" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+      <rect id="Rectangle_342" data-name="Rectangle 342" width="59.997" height="18.753" transform="translate(94.34 8.229)" fill="none" stroke="#330f10" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+      <rect id="Rectangle_343" data-name="Rectangle 343" width="64.164" height="22.916" transform="translate(92.258 6.148)" fill="none" stroke="#330f10" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+      <path id="Rectangle_344" data-name="Rectangle 344" d="M1.8,0H167.87a1.8,1.8,0,0,1,1.8,1.8v30.6a1.8,1.8,0,0,1-1.8,1.8H1.8a1.8,1.8,0,0,1-1.8-1.8V1.8A1.8,1.8,0,0,1,1.8,0Z" transform="translate(0.5 0.5)" fill="none" stroke="#330f10" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

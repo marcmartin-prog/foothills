@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="171" height="33.402" viewBox="0 0 171 33.402">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_182" data-name="Rectangle 182" width="171" height="33.402" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_38" data-name="Group 38" transform="translate(0 0)">
+    <g id="Group_37" data-name="Group 37" transform="translate(0 -0.001)" clip-path="url(#clip-path)">
+      <path id="Rectangle_181" data-name="Rectangle 181" d="M1.8,0H168.061a1.8,1.8,0,0,1,1.8,1.8V30.462a1.8,1.8,0,0,1-1.8,1.8H1.8a1.8,1.8,0,0,1-1.8-1.8V1.8A1.8,1.8,0,0,1,1.8,0Z" transform="translate(0.567 0.568)" fill="none" stroke="#330f10" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_59" data-name="Line 59" x2="169.53" transform="translate(0.742 28.154)" fill="none" stroke="#330f10" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="Line_60" data-name="Line 60" x2="169.53" transform="translate(0.742 23.573)" fill="none" stroke="#330f10" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="Line_61" data-name="Line 61" x2="169.53" transform="translate(0.742 18.992)" fill="none" stroke="#330f10" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="Line_62" data-name="Line 62" x2="169.53" transform="translate(0.742 14.411)" fill="none" stroke="#330f10" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="Line_63" data-name="Line 63" x2="169.53" transform="translate(0.742 9.83)" fill="none" stroke="#330f10" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="Line_64" data-name="Line 64" x2="169.53" transform="translate(0.742 5.249)" fill="none" stroke="#330f10" stroke-miterlimit="10" stroke-width="0.5"/>
+    </g>
+  </g>
+</svg>

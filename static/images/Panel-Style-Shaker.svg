@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="169" height="33.011" viewBox="0 0 169 33.011">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_192" data-name="Rectangle 192" width="169" height="33.011" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_40" data-name="Group 40" transform="translate(0 0)">
+    <g id="Group_39" data-name="Group 39" transform="translate(0 -0.001)" clip-path="url(#clip-path)">
+      <path id="Rectangle_183" data-name="Rectangle 183" d="M1.8,0H166.074a1.8,1.8,0,0,1,1.8,1.8V30.085a1.8,1.8,0,0,1-1.8,1.8H1.8a1.8,1.8,0,0,1-1.8-1.8V1.8A1.8,1.8,0,0,1,1.8,0Z" transform="translate(0.561 0.561)" fill="none" stroke="#330f10" stroke-miterlimit="10" stroke-width="1"/>
+      <rect id="Rectangle_184" data-name="Rectangle 184" width="13.254" height="22.902" rx="0.359" transform="translate(63.574 5.541)" fill="none" stroke="#330f10" stroke-miterlimit="10" stroke-width="0.75"/>
+      <rect id="Rectangle_185" data-name="Rectangle 185" width="13.254" height="22.902" rx="0.359" transform="translate(46.837 5.541)" fill="none" stroke="#330f10" stroke-miterlimit="10" stroke-width="0.75"/>
+      <rect id="Rectangle_186" data-name="Rectangle 186" width="13.254" height="22.902" rx="0.359" transform="translate(30.1 5.541)" fill="none" stroke="#330f10" stroke-miterlimit="10" stroke-width="0.75"/>
+      <rect id="Rectangle_187" data-name="Rectangle 187" width="13.254" height="22.902" rx="0.359" transform="translate(13.363 5.541)" fill="none" stroke="#330f10" stroke-miterlimit="10" stroke-width="0.75"/>
+      <rect id="Rectangle_188" data-name="Rectangle 188" width="13.254" height="22.902" rx="0.359" transform="translate(143.382 5.541)" fill="none" stroke="#330f10" stroke-miterlimit="10" stroke-width="0.75"/>
+      <rect id="Rectangle_189" data-name="Rectangle 189" width="13.254" height="22.902" rx="0.359" transform="translate(126.645 5.541)" fill="none" stroke="#330f10" stroke-miterlimit="10" stroke-width="0.75"/>
+      <rect id="Rectangle_190" data-name="Rectangle 190" width="13.254" height="22.902" rx="0.359" transform="translate(109.908 5.541)" fill="none" stroke="#330f10" stroke-miterlimit="10" stroke-width="0.75"/>
+      <rect id="Rectangle_191" data-name="Rectangle 191" width="13.254" height="22.902" rx="0.359" transform="translate(93.171 5.541)" fill="none" stroke="#330f10" stroke-miterlimit="10" stroke-width="0.75"/>
+    </g>
+  </g>
+</svg>

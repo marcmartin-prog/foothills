@@ -219,15 +219,14 @@ body.lb-disable-scrolling {
 }
 
 .gallery-parent>a{
-  flex-basis: 164px;
+  flex-basis: 46%;
 }
 
 .gallery-parent>a>img{
   border-radius: 10px;
-  height: 250px;
   width: 100%;
   object-fit: cover;
-  height: 164px;
+  height: 40vw;
 }
 /* Hide scrollbar for Chrome, Safari and Opera */
 .gallery-parent::-webkit-scrollbar {

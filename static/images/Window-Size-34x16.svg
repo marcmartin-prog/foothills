@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="170.673" height="35.211" viewBox="0 0 170.673 35.211">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_230" data-name="Rectangle 230" width="170.673" height="35.211" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_166" data-name="Group 166" transform="translate(-20.327 -2766.789)">
+    <g id="Group_159" data-name="Group 159" transform="translate(138.83 2773.851)">
+      <rect id="Rectangle_227" data-name="Rectangle 227" width="41.079" height="22.297" fill="#330f10" stroke="#330f10" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+      <rect id="Rectangle_228" data-name="Rectangle 228" width="37.789" height="19.085" transform="translate(1.642 1.608)" fill="#fff"/>
+    </g>
+    <g id="Group_164" data-name="Group 164" transform="translate(86.092 2773.851)">
+      <rect id="Rectangle_227-2" data-name="Rectangle 227" width="41.079" height="22.297" fill="#330f10" stroke="#330f10" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+      <rect id="Rectangle_228-2" data-name="Rectangle 228" width="37.789" height="19.085" transform="translate(1.642 1.608)" fill="#fff"/>
+    </g>
+    <g id="Group_165" data-name="Group 165" transform="translate(32.092 2773.851)">
+      <rect id="Rectangle_227-3" data-name="Rectangle 227" width="41.079" height="22.297" fill="#330f10" stroke="#330f10" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+      <rect id="Rectangle_228-3" data-name="Rectangle 228" width="37.789" height="19.085" transform="translate(1.642 1.608)" fill="#fff"/>
+    </g>
+    <g id="Group_60" data-name="Group 60" transform="translate(20.327 2766.789)">
+      <g id="Group_59" data-name="Group 59" clip-path="url(#clip-path)">
+        <path id="Rectangle_229" data-name="Rectangle 229" d="M1.8,0H167.87a1.8,1.8,0,0,1,1.8,1.8v30.6a1.8,1.8,0,0,1-1.8,1.8H1.8a1.8,1.8,0,0,1-1.8-1.8V1.8A1.8,1.8,0,0,1,1.8,0Z" transform="translate(0.5 0.5)" fill="none" stroke="#330f10" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

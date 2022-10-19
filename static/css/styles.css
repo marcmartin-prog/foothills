@@ -237,6 +237,7 @@ section {
   margin-block-start: 0;
   margin-block-end: 0;
   line-height: 20px;
+  margin: auto;
 }
 
 .cheap::after{
@@ -329,6 +330,7 @@ section {
 }
 .glass img{
   max-height: 92px;
+  border-radius: 5px;
 }
 
 .gray{
@@ -367,7 +369,7 @@ section {
 .heading-cheap::after{
   position: absolute;
   top: 0;
-  right: -15px;
+  right: -12px;
   content: "$";
     color: #b7a68e;
     font-family: 'Lato', sans-serif;
@@ -375,7 +377,7 @@ section {
 .heading-econ::after{
   position: absolute;
   top: 0;
-  right: -25px;
+  right: -20px;
   content: "$$";
     color: #b7a68e;
     font-family: 'Lato', sans-serif;
@@ -383,7 +385,7 @@ section {
 .heading-prem::after{
   position: absolute;
   top: 0;
-  right: -35px;
+  right: -28px;
   content: "$$$";
     color: #b7a68e;
     font-family: 'Lato', sans-serif;
@@ -391,7 +393,7 @@ section {
 .heading-exp::after{
   position: absolute;
   top: 0;
-  right: -45px;
+  right: -36px;
   content: "$$$$";
     color: #b7a68e;
     font-family: 'Lato', sans-serif;
@@ -408,6 +410,10 @@ section {
 .left-pos-pic{
   object-fit: cover;
   object-position: left;
+}
+
+.light-tan-text{
+  color: var(--tertiary);
 }
 
 .logo img{
@@ -491,13 +497,15 @@ section {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 .options-choices>div{
   width: 48%;
+  margin-bottom: 5px;
 }
 
 .options-choices img{
-  border-radius: 5px;
   max-width: 100%;
 }
 

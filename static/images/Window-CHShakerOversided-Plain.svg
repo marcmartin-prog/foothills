@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="170.673" height="35.211" viewBox="0 0 170.673 35.211">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_294" data-name="Rectangle 294" width="170.673" height="35.211" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_114" data-name="Group 114" transform="translate(0 0)">
+    <rect id="Rectangle_289" data-name="Rectangle 289" width="61.971" height="20.803" transform="translate(15.417 7.204)" fill="none" stroke="#330f10" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+    <rect id="Rectangle_290" data-name="Rectangle 290" width="57.358" height="16.112" transform="translate(17.719 9.557)" fill="#330f10"/>
+    <rect id="Rectangle_291" data-name="Rectangle 291" width="61.97" height="20.803" transform="translate(93.235 7.204)" fill="none" stroke="#330f10" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+    <rect id="Rectangle_292" data-name="Rectangle 292" width="57.358" height="16.112" transform="translate(95.536 9.557)" fill="#330f10"/>
+    <g id="Group_85" data-name="Group 85">
+      <g id="Group_84" data-name="Group 84" clip-path="url(#clip-path)">
+        <path id="Rectangle_293" data-name="Rectangle 293" d="M1.8,0H167.87a1.8,1.8,0,0,1,1.8,1.8v30.6a1.8,1.8,0,0,1-1.8,1.8H1.8a1.8,1.8,0,0,1-1.8-1.8V1.8A1.8,1.8,0,0,1,1.8,0Z" transform="translate(0.5 0.5)" fill="none" stroke="#330f10" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

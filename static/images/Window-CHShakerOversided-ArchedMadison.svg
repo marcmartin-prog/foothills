@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="169" height="35.211" viewBox="0 0 169 35.211">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_351" data-name="Rectangle 351" width="169" height="35.211" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_131" data-name="Group 131" transform="translate(0 0)">
+    <g id="Group_130" data-name="Group 130" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Path_293" data-name="Path 293" d="M59.441,10.294q-6.167.35-12.305.963a.19.19,0,0,0-.168.192V25.163a.184.184,0,0,0,.18.192H59.453a.165.165,0,0,0,.128-.06.187.187,0,0,0,.058-.132V10.491a.2.2,0,0,0-.058-.137.186.186,0,0,0-.14-.06M30.413,13.439q-6.176.985-12.311,2.254a.186.186,0,0,0-.149.191v9.279a.188.188,0,0,0,.187.192h12.3a.193.193,0,0,0,.135-.06.179.179,0,0,0,.049-.132V13.631a.156.156,0,0,0-.07-.144.138.138,0,0,0-.142-.048M44.92,11.483q-6.154.675-12.306,1.6a.194.194,0,0,0-.153.2v11.88a.206.206,0,0,0,.187.192H44.94a.187.187,0,0,0,.192-.192V11.681a.192.192,0,0,0-.062-.144.205.205,0,0,0-.15-.054m29.227-1.44a.184.184,0,0,0-.192-.192q-6.151.036-12.306.329a.19.19,0,0,0-.179.2V25.163a.19.19,0,0,0,.056.132.178.178,0,0,0,.135.06H73.955a.193.193,0,0,0,.192-.192Z" transform="translate(-0.176 0)" fill="#330f10"/>
+      <path id="Path_294" data-name="Path 294" d="M110.533,10.354a.2.2,0,0,0-.058.137V25.163a.181.181,0,0,0,.058.131.163.163,0,0,0,.128.061h12.305a.185.185,0,0,0,.18-.192V11.448a.193.193,0,0,0-.168-.192q-6.142-.609-12.305-.961a.182.182,0,0,0-.14.059m29.027,3.133a.156.156,0,0,0-.072.143V25.163a.175.175,0,0,0,.05.131.19.19,0,0,0,.135.061h12.3a.188.188,0,0,0,.186-.192V15.884a.186.186,0,0,0-.148-.191q-6.142-1.266-12.311-2.254a.135.135,0,0,0-.142.048m-14.515-1.949a.188.188,0,0,0-.062.144V25.163a.187.187,0,0,0,.192.192h12.292a.166.166,0,0,0,.128-.061.162.162,0,0,0,.059-.131V13.283a.193.193,0,0,0-.153-.2q-6.151-.924-12.306-1.6a.2.2,0,0,0-.15.055M95.967,25.163a.193.193,0,0,0,.192.192h12.294a.175.175,0,0,0,.135-.061.188.188,0,0,0,.056-.131V10.378a.187.187,0,0,0-.181-.2q-6.149-.3-12.3-.33a.186.186,0,0,0-.192.192Z" transform="translate(-0.941 0)" fill="#330f10"/>
+      <rect id="Rectangle_346" data-name="Rectangle 346" width="59.414" height="18.755" transform="translate(16.169 8.228)" fill="none" stroke="#330f10" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+      <rect id="Rectangle_347" data-name="Rectangle 347" width="63.54" height="22.918" transform="translate(14.106 6.147)" fill="none" stroke="#330f10" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+      <rect id="Rectangle_348" data-name="Rectangle 348" width="59.413" height="18.755" transform="translate(93.416 8.228)" fill="none" stroke="#330f10" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+      <rect id="Rectangle_349" data-name="Rectangle 349" width="63.54" height="22.918" transform="translate(91.355 6.147)" fill="none" stroke="#330f10" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+      <path id="Rectangle_350" data-name="Rectangle 350" d="M1.8,0h164.4a1.8,1.8,0,0,1,1.8,1.8v30.6a1.8,1.8,0,0,1-1.8,1.8H1.8a1.8,1.8,0,0,1-1.8-1.8V1.8A1.8,1.8,0,0,1,1.8,0Z" transform="translate(0.495 0.5)" fill="none" stroke="#330f10" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

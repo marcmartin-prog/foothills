@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="171" height="33.402" viewBox="0 0 171 33.402">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_176" data-name="Rectangle 176" width="171" height="33.402" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_34" data-name="Group 34" transform="translate(0 0)">
+    <g id="Group_33" data-name="Group 33" transform="translate(0 -0.001)" clip-path="url(#clip-path)">
+      <path id="Rectangle_171" data-name="Rectangle 171" d="M1.8,0H168.061a1.8,1.8,0,0,1,1.8,1.8V30.462a1.8,1.8,0,0,1-1.8,1.8H1.8a1.8,1.8,0,0,1-1.8-1.8V1.8A1.8,1.8,0,0,1,1.8,0Z" transform="translate(0.567 0.568)" fill="none" stroke="#330f10" stroke-miterlimit="10" stroke-width="1"/>
+      <rect id="Rectangle_172" data-name="Rectangle 172" width="34.089" height="19.248" rx="0.359" transform="translate(8.479 7.077)" fill="none" stroke="#330f10" stroke-miterlimit="10" stroke-width="0.75"/>
+      <path id="Path_7" data-name="Path 7" d="M7.978,6.794H40.622V24.766" transform="translate(1.081 0.921)" fill="none" stroke="#330f10" stroke-linecap="square" stroke-miterlimit="10" stroke-width="0.75"/>
+      <rect id="Rectangle_173" data-name="Rectangle 173" width="34.089" height="19.248" rx="0.359" transform="translate(48.688 7.077)" fill="none" stroke="#330f10" stroke-miterlimit="10" stroke-width="0.75"/>
+      <path id="Path_8" data-name="Path 8" d="M43.389,6.794H76.033V24.766" transform="translate(5.879 0.921)" fill="none" stroke="#330f10" stroke-linecap="square" stroke-miterlimit="10" stroke-width="0.75"/>
+      <rect id="Rectangle_174" data-name="Rectangle 174" width="34.089" height="19.248" rx="0.359" transform="translate(89.357 7.077)" fill="none" stroke="#330f10" stroke-miterlimit="10" stroke-width="0.75"/>
+      <path id="Path_9" data-name="Path 9" d="M79.205,6.83H111.89V24.72" transform="translate(10.732 0.926)" fill="none" stroke="#330f10" stroke-linecap="square" stroke-miterlimit="10" stroke-width="0.75"/>
+      <rect id="Rectangle_175" data-name="Rectangle 175" width="34.089" height="19.248" rx="0.359" transform="translate(128.437 7.077)" fill="none" stroke="#330f10" stroke-miterlimit="10" stroke-width="0.75"/>
+      <path id="Path_10" data-name="Path 10" d="M113.622,6.794h32.643V24.766" transform="translate(15.395 0.921)" fill="none" stroke="#330f10" stroke-linecap="square" stroke-miterlimit="10" stroke-width="0.75"/>
+    </g>
+  </g>
+</svg>
