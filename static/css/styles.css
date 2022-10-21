@@ -148,6 +148,11 @@ section {
   width: max-content;
 }
 
+.center-pos-pic{
+  object-fit: cover;
+  object-position: center;
+}
+
 .charcoal{
   background-color: #474b4f;
 }
