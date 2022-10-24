@@ -112,6 +112,10 @@ section {
   background-color: #000001;
 }
 
+.big-text{
+  font-size: 22px;
+}
+
 .bold{
   font-weight: 700;
 }
@@ -146,6 +150,8 @@ section {
   margin: 10px auto;
   display: block;
   width: max-content;
+  z-index: 10;
+  position: relative;
 }
 
 .center-pos-pic{
@@ -346,6 +352,10 @@ section {
   background-color: #646363;
 }
 
+.half-height{
+  height: 200px;
+}
+
 .header-row{
   display: flex;
   flex-direction: row;
@@ -479,6 +489,11 @@ section {
   margin: 1rem 0;
 }
 
+.mid-btn-border{
+  padding-top: 80px;
+  margin-top: -30px;
+}
+
 .mobile-menu{
   width: 0;
   height: 0;
@@ -488,6 +503,11 @@ section {
   left: 0;
   top: 0;
   transition: 0.3s;
+}
+
+.ms-colors{
+  padding-top: 35px;
+  margin-top: -17px;
 }
 
 .phone-number{
@@ -512,6 +532,14 @@ section {
 
 .options-choices img{
   max-width: 100%;
+}
+.rs-points li{
+  margin-bottom: 0;
+}
+
+.rs-points h2{
+  font-size: 1.3rem;
+  text-align: left;
 }
 
 .sandstone{
@@ -564,6 +592,13 @@ section {
 }
 .brown-text{
   color: var(--primary);
+}
+
+.tan-h2{
+  font-size: 1.35rem;
+  color: var(--tertiary);
+  background-color: #f8f8f8;
+  padding-left: 0;
 }
 .tinted{
   background-color: #747474;
