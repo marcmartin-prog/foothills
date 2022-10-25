@@ -43,7 +43,7 @@ body {
 h1{
   font-weight: 700;
   font-family: 'Lato', sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.875rem;
   color: var(--primary);
   margin-block-start: 20px;
   text-align: center;
@@ -163,7 +163,7 @@ section {
   background-color: #474b4f;
 }
 
-.choice h2{
+.choice h2 not(.operators h2){
   background-color: var(--primary);
   color: var(--tertiary);
   font-size: 20px;
@@ -422,6 +422,10 @@ section {
   margin-bottom: 37px;
 }
 
+.home-hero h1{
+  font-size: 2.5rem;
+}
+
 .left-pos-pic{
   object-fit: cover;
   object-position: left;
@@ -599,6 +603,7 @@ section {
   color: var(--tertiary);
   background-color: #f8f8f8;
   padding-left: 0;
+  text-align: left;
 }
 .tinted{
   background-color: #747474;
@@ -610,6 +615,15 @@ section {
   height: 92px;
   width: 100%;
   border-radius: 5px;
+}
+
+.text-section{
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.text-section .btn-main{
+  margin-top: 45px;
 }
 
 .white{
