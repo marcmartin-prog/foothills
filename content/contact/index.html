@@ -28,7 +28,42 @@ description: "Get in touch with us to find out more about our high-quality doors
 
 <section>
   <h2>I Want a Quote</h2>
-  <form class="" action="" netlify method="post">
-    
+  <form name='Contact' class="" action="" method="post" data-netlify="true" data-secure>
+    <div class="form-input">
+      <label for="Name">Full Name*</label>
+      <input type="text" class="input" name="Name" data-placeholder="Name" value="" required>
+    </div>
+    <div class="form-input">
+      <label for="Email">Email*</label>
+      <input type="email" class="input" name="Email" data-placeholder="Email" value="" required>
+    </div>
+    <div class="form-input">
+      <label for="Phone">Phone*</label>
+      <input type="phone" class="input" data-placeholder="Phone" name="Phone" value="" required>
+    </div>
+    <div class="form-input">
+      <label for="Address">Job Address</label>
+      <input type="text" class="input" data-placeholder="Job Address" name="Address" value="" >
+    </div>
+    <div class="checkbox-input">
+      <p class="tan-text big-p">What type of doors are you interested in?</p>
+      <div class="">
+        <input type="checkbox" name="Residential" value="Residential" class="checkbox">
+        <label for="Residential">Residential</label>
+      </div>
+      <div class="">
+        <input type="checkbox" name="Commercial" value="Commercial" class="checkbox">
+        <label for="Commercial">Commercial</label>
+      </div>
+    </div>
+
+    <div class="form-input">
+      <label for="Message">Comment*</label>
+      <textarea name="Comment" class="input" data-placeholder="Message" rows="10" cols="80"></textarea>
+    </div>
+    <input type="submit" name="submit" class="btn-main" value="Submit Info">
   </form>
+  <br>
+  <p class="big-p bold tan-text center">Thank you for this opportunity to serve you! Your Satisfaction is our Goal.</p>
+  <br>
 </section>

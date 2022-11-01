@@ -27,6 +27,53 @@ menuCloseButton.addEventListener('click', menuClose);
 
 menuItems.addEventListener('click', menuClose);
 
+//floating label on forms
+const FloatLabel = (() => {
+
+  // add active class
+  const handleFocus = (e) => {
+    const target = e.target;
+    target.parentNode.classList.add('active');
+    target.setAttribute('placeholder', target.getAttribute('data-placeholder'));
+  };
+
+  // remove active class
+  const handleBlur = (e) => {
+    const target = e.target;
+    if(!target.value) {
+      target.parentNode.classList.remove('active');
+    }
+    target.removeAttribute('placeholder');
+  };
+
+  // register events
+  const bindEvents = (element) => {
+    const floatField = element.querySelector('.input');
+    floatField.addEventListener('focus', handleFocus);
+    floatField.addEventListener('blur', handleBlur);
+  };
+
+  // get DOM elements
+  const init = () => {
+    const floatContainers = document.querySelectorAll('.form-input');
+
+    floatContainers.forEach((element) => {
+
+      if (element.querySelector('.input').value) {
+        element.classList.add('active');
+      }
+
+      bindEvents(element);
+    });
+  };
+
+  return {
+    init: init
+  };
+})();
+
+FloatLabel.init();
+
 
 // Load this script after everything else (document is ready)
 document.addEventListener("DOMContentLoaded", function(event) {

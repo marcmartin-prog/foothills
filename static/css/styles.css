@@ -168,6 +168,10 @@ section {
   object-position: center;
 }
 
+.center{
+  text-align: center;
+}
+
 .cedar-red{
   background-color: #5F0C04;
 }
@@ -363,6 +367,93 @@ section {
 .fern-green{
   background-color: #0A311E;
 }
+
+label{
+  color: var(--secondary);
+  font-weight: normal;
+  font-family: 'Lato', sans-serif;
+  position: absolute;
+  transform-origin: top left;
+  transform: translate(0, 16px) scale(1);
+  transition: all .1s ease-in-out;
+  top: -0;
+  left: 15px;
+  font-size: 1.25rem;
+  z-index: 1;
+}
+
+label:focus{
+  opacity: 0;
+}
+
+input:not(.btn-main):not(.checkbox){
+  width: 95%;
+  height: 50px;
+}
+
+textarea{
+  width: 95%;
+  height: 300px;
+}
+
+.checkbox-input div{
+  position: relative;
+}
+
+.checkbox-input input{
+  display: block;
+
+}
+.checkbox-input label{
+  transform: unset;
+  top: -3px;
+  left: 40px;
+}
+
+.checkbox{
+  height: 21px;
+  width: 22px;
+  margin-bottom: 10px;
+}
+
+.form-input{
+  position: relative;
+  margin: 20px 0;
+}
+
+.form-input label:not(.select), .form-input label:not(.date){
+  position: absolute;
+  transform-origin: top left;
+  transform: translate(0, 16px) scale(1);
+  transition: all 0.1s ease-in-out;
+  z-index: 1;
+}
+
+.form-input.active label{
+  transform: translate(0, -15px) scale(.75);
+  color: var(--secondary);
+}
+
+.input{
+  border-radius: 10px;
+  border: none;
+  padding-left: 15px;
+  z-index: 0.5;
+  position: relative;
+}
+
+.select{
+  color: var(--primary);
+  position: relative;
+}
+
+.select-input, .text-input{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4px;
+  position: relative;
+}
+
 
 .footer-contact{
   margin-bottom: 30px;
@@ -768,6 +859,19 @@ section {
 }
 .ultra-blue{
   background-color: #0C326E;
+}
+
+.video p, .video h2{
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.video div{
+  margin-top: 20px;
+}
+
+.video{
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .white{
