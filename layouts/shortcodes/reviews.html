@@ -1,0 +1,29 @@
+<div class="reviews-parent">
+
+{{ $reviews := getJSON (printf "https://api.app.outscraper.com/requests/240b824a-1c67-4f1f-a0da-9b7f55e6236a" )}}
+ <div class="reviews-slider disable-scrollbars">
+ {{ range $reviews.data.reviews_data}}
+
+   <div  id="_review8" itemprop="review" itemscope itemtype="http://schema.org/Review" class="review">
+
+
+
+     <p class="rev-text light regular"> <span itemprop="reviewBody"> {{ .text }} </span> </p>
+     <div class="rating">
+        <img src="/images/star.svg" alt="star rating">
+        <img src="/images/star.svg" alt="star rating">
+        <img src="/images/star.svg" alt="star rating">
+        <img src="/images/star.svg" alt="star rating">
+        <img src="/images/star.svg" alt="star rating">
+     </div>
+
+     <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><h5 class="rev-name"> {{ .author_title }} </h5></span></span>
+
+     <p class="rev-date"> {{ .review_timestamp }} </p>
+     <p hidden> {{ .review_rating }}</p>
+
+   </div>
+   {{end}}
+
+ </div>
+</div>
