@@ -1,14 +1,15 @@
 <div class="reviews-parent">
 
-{{ $reviews := getJSON (printf "https://api.app.outscraper.com/maps/reviews-v3?query=ChIJU7-Ou0Mp1IcReeTe5L195C4&reviewsLimit=3&async=false") (dict "X-API-KEY" "YXV0aDB8NjM2MjU2Y2Y5MWJkYjhlZDdjYmRhMGEwfDMxZWIyOWI4YmQ")}}
+{{ $reviews := getJSON "https://api.app.outscraper.com/maps/reviews-v3?query=ChIJU7-Ou0Mp1IcReeTe5L195C4&reviewsLimit=3&async=false" (dict "X-API-KEY" "YXV0aDB8NjM2MjU2Y2Y5MWJkYjhlZDdjYmRhMGEwfDMxZWIyOWI4YmQ") }}
  <div class="reviews-slider disable-scrollbars">
- {{ range $reviews.data.reviews_data}}
+ {{ $reviewsData := $reviews.data{0} }}
+ {{ range $reviewsData.reviews_data}}
 
    <div  id="_review8" itemprop="review" itemscope itemtype="http://schema.org/Review" class="review">
 
 
 
-     <p class="rev-text light regular"> <span itemprop="reviewBody"> {{ .review_text }} </span> </p>
+     <p class="rev-text "> <span itemprop="reviewBody"> {{ .review_text }} </span> </p>
      <div class="rating">
         <img src="/images/star.svg" alt="star rating">
         <img src="/images/star.svg" alt="star rating">
@@ -24,6 +25,6 @@
 
    </div>
    {{end}}
-
+data[0].reviews_data
  </div>
 </div>
