@@ -1,15 +1,13 @@
 <div class="reviews-parent">
 
-{{ $reviews := getJSON "https://api.app.outscraper.com/maps/reviews-v3?query=ChIJU7-Ou0Mp1IcReeTe5L195C4&reviewsLimit=3&async=false" (dict "X-API-KEY" "YXV0aDB8NjM2MjU2Y2Y5MWJkYjhlZDdjYmRhMGEwfDMxZWIyOWI4YmQ") }}
+{{ $reviews := getJSON "https://api.app.outscraper.com/maps/reviews-v3?query=ChIJU7-Ou0Mp1IcReeTe5L195C4&reviewsLimit=12&async=false" (dict "X-API-KEY" "YXV0aDB8NjM2MjU2Y2Y5MWJkYjhlZDdjYmRhMGEwfDMxZWIyOWI4YmQ") }}
  <div class="reviews-slider disable-scrollbars">
  {{ $reviewsData := $reviews.data }}
- {{ range $reviewsData.reviews_data}}
+ {{ $data_first := index $reviewsData 0 }}
+ {{ range $data_first.reviews_data}}
+
 
    <div  id="_review8" itemprop="review" itemscope itemtype="http://schema.org/Review" class="review">
-
-
-
-     <p class="rev-text "> <span itemprop="reviewBody"> {{ .review_text }} </span> </p>
      <div class="rating">
         <img src="/images/star.svg" alt="star rating">
         <img src="/images/star.svg" alt="star rating">
@@ -17,14 +15,12 @@
         <img src="/images/star.svg" alt="star rating">
         <img src="/images/star.svg" alt="star rating">
      </div>
-
-     <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><h5 class="rev-name"> {{ .author_title }} </h5></span></span>
-
-     <p class="rev-date"> {{ .review_timestamp }} </p>
+     <p class="rev-text brown-text big-p"> <span itemprop="reviewBody"> {{ .review_text }} </span> </p>
+     <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><h5 class="rev-name light-tan-text">-{{ .author_title }} </h5></span></span>
      <p hidden> {{ .review_rating }}</p>
 
    </div>
    {{end}}
-data[0].reviews_data
+
  </div>
 </div>

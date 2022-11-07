@@ -13,7 +13,7 @@ imaging:
 ignoreErrors: ["alt-error"] # suppress error message if no alt text has been provided.
 params:
   image:
-    widths: [600, 900, 1300] # widths to generate if widths not specified
+    widths: [600, 900, 1100] # widths to generate if widths not specified
     # shortcodeWidths: [600, 900, 1300] # custom widths for shortcode use in markdown files. If unset defaults to widths
     # renderHookWidths: [600, 900, 1300] # custom widths for render hook use in markdown files. If unset defaults to shortcode widths
     densities: [1,2] # densities which are output when an image width is specified

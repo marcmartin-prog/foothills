@@ -64,9 +64,11 @@ h3{
 h5{
   font-family: 'Lato', sans-serif;
   font-size: 18px;
+  font-weight: 400;
 }
 
 footer{
+  padding-top: 15px;
   background-color: var(--primary);
 }
 
@@ -80,7 +82,7 @@ footer a{
 }
 
 header {
-
+  position: relative;
   justify-content: space-between;
   padding: 1.5rem var(--padding) 0;
   background-color: var(--primary);
@@ -420,6 +422,13 @@ textarea{
   margin-bottom: 10px;
 }
 
+.dropdown{
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
 .form-input{
   position: relative;
   margin: 20px 0;
@@ -536,6 +545,10 @@ textarea{
   color: var(--black);
   text-align: center;
 }
+.heading a{
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
 
 .heading-cheap, .heading-econ, .heading-prem, .heading-exp{
   position: relative;
@@ -582,6 +595,10 @@ textarea{
 
 .hero--text{
   margin-bottom: 37px;
+}
+
+.hero--text p{
+  margin-bottom: 40px;
 }
 
 .home-hero h1{
@@ -653,7 +670,7 @@ textarea{
   margin-left: 50px;
 }
 
-.menu-items a{
+.menu-items a, .menu-item-dd{
   text-align: left;
   font-size: 1.69rem;
   text-decoration: none;
@@ -743,6 +760,18 @@ textarea{
 
 .profile p, .about p{
   font-size: 1.25rem;
+  margin-block-start: 5px;
+}
+
+.review{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.review p{
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.rev-name{
   margin-block-start: 5px;
 }
 
