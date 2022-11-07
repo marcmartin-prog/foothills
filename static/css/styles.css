@@ -111,6 +111,14 @@ section {
   padding: 0 var(--padding);
 }
 
+
+.active-dropdown::after{
+  transform: rotate(180deg);
+}
+.active-dropdown-dt::after{
+  transform: rotate(180deg);
+}
+
 .almond{
   background-color: #d5d1bf;
 }
@@ -426,7 +434,10 @@ textarea{
   display: none;
   flex-direction: column;
   justify-content: center;
-
+  padding-left: 20px;
+}
+.dropdown a{
+  font-size: 1.25rem!important;
 }
 
 .form-input{
@@ -670,14 +681,19 @@ textarea{
   margin-left: 50px;
 }
 
-.menu-items a, .menu-item-dd{
+.menu-items a, .dd-link{
   text-align: left;
   font-size: 1.69rem;
   text-decoration: none;
   font-family: 'Lato', sans-serif;
-
   color: var(--white);
   margin: 1rem 0;
+  position: relative;
+}
+
+.menu-item-dd::after{
+  position: absolute;
+  content: url("/images/arrow-down.svg")
 }
 
 .mid-btn-border{
