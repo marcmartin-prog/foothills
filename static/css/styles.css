@@ -198,7 +198,7 @@ section {
   background-color: #474b4f;
 }
 
-.choice h2 not(.operators h2){
+.choice h2:not(.operators h2){
   background-color: var(--primary);
   color: var(--tertiary);
   font-size: 20px;
@@ -937,6 +937,52 @@ textarea{
 
 .works ol{
   margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 760px){
+
+.buttons{
+  display: flex;
+  gap: 30px;
+  margin: auto;
+  max-width: max-content;
+}
+
+.buttons .btn-tan{
+  margin: 10px 0;
+}
+
+.choices>div{
+  max-width: 194px;
+}
+
+.color-choices>div{
+  max-width: 117px;
+}
+
+
+
+.hero img{
+  height: 400px;
+  object-fit: cover;
+}
+
+.home-hero h1{
+  margin-block-end: 10px;
+}
+
+.options-choices>div{
+  width: 32%;
+}
+.options-choices p{
+  left: -20px;
+}
+
+.options-choices img{
+  width: 100%;
+}
+
+
 }
 
 

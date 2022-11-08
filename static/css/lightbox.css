@@ -243,6 +243,15 @@ body.lb-disable-scrolling {
   display: none;
 }
 
+@media only screen and (min-width: 760px){
+  .gallery-parent>a{
+    flex-basis: 31%;
+  }
+  .gallery-parent>a>img{
+    height: 28vw;
+  }
+}
+
 @media only screen and (min-width: 1024px){
 
     .gallery-parent{
