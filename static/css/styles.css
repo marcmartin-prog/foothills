@@ -440,6 +440,17 @@ textarea{
   font-size: 1.25rem!important;
 }
 
+.dt-header{
+  background-color: var(--white);
+  width: 100vw;
+  height: 90px;
+  margin: 0 var(--neg-padding);
+  display: block;
+  top: 2px;
+  position: relative;
+  padding-top: 8px;
+}
+
 .form-input{
   position: relative;
   margin: 20px 0;
@@ -639,16 +650,7 @@ textarea{
   display: block;
 }
 
-.logo{
-  background-color: var(--white);
-  width: 100vw;
-  height: 90px;
-  margin: 0 var(--neg-padding);
-  display: block;
-  top: 2px;
-  position: relative;
-  padding-top: 8px;
-}
+
 
 .logos img{
   max-width: 222px;
@@ -988,8 +990,23 @@ textarea{
 
 @media only screen and (min-width: 1024px){
 
+  .dt-header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+  }
+
   .hamburger{
     display: none;
+  }
+
+  .header-row .phone-number{
+    display: block;
+    text-align: center;
+  }
+
+  .header-row{
+    display: block;
   }
 
   .menu{
@@ -1002,10 +1019,14 @@ textarea{
       flex-direction: row;
   }
 
-  .menu a{
+  .menu-item-dd{
+    position: relative;
+  }
+
+  .menu a, .menu li{
     text-decoration: none;
-    color: white;
-    margin: 0 1.5rem;
+    color: var(--primary);
+    margin: 0 15px;
     font-family: 'plus-Jakarta-Sans', sans-serif;
     font-size: 1rem;
     font-weight: bold;
