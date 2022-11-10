@@ -117,6 +117,7 @@ section {
 }
 .active-dropdown-dt::after{
   transform: rotate(180deg);
+  top: -4%!important;
 }
 
 .almond{
@@ -438,6 +439,24 @@ textarea{
 }
 .dropdown a{
   font-size: 1.25rem!important;
+}
+
+#dropdown-dt::after, #dropdown-com-dt::after{
+  content: url(/images/arrow-down0.svg);
+  position: absolute;
+  right: -16px;
+  top: 10%;
+}
+
+.dropdown-dt, .dropdown-com-dt{
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  z-index: 25;
+  background-color: white;
+  top: 3rem;
+  left: -2rem;
+  width: 15rem;
 }
 
 .dt-header{
@@ -992,8 +1011,9 @@ textarea{
 
   .dt-header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 70px;
+    max-width: 100vw;
   }
 
   .hamburger{
