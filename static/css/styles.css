@@ -1009,6 +1009,24 @@ textarea{
 
 @media only screen and (min-width: 1024px){
 
+  :root{
+    --padding: 40px;
+    --neg-padding: -40px;
+  }
+
+  h1{
+    font-size: 2.5rem;
+  }
+
+  .choice h2:not(.operators h2) {
+    background-color: unset;
+    color: var(--primary);
+    font-size: 1.875rem;
+    padding: 7px 15px;
+    border-radius: 5px;
+    text-align: left;
+}
+
   .dt-header{
     display: flex;
     justify-content: space-around;
@@ -1027,6 +1045,22 @@ textarea{
 
   .header-row{
     display: block;
+  }
+
+  .hero img{
+    height: 440px;
+  }
+
+  .logo{
+    max-width: 240px;
+  }
+
+  .logos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
   }
 
   .menu{
@@ -1050,5 +1084,15 @@ textarea{
     font-family: 'plus-Jakarta-Sans', sans-serif;
     font-size: 1rem;
     font-weight: bold;
+  }
+
+  .secondary-hero{
+    max-height: 44vw;
+    object-fit: cover;
+  }
+
+  .steps ol, .works ol{
+    max-width: 650px;
+    margin: auto;
   }
 }
