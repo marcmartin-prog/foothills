@@ -37,6 +37,7 @@ a{
 body {
   margin: 0;
   background-color: var(--quinary);
+  overflow-x: hidden;
 }
 
 h1{
@@ -89,6 +90,7 @@ header {
 
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 li{
@@ -159,6 +161,14 @@ section {
   max-width: max-content;
   z-index: 5;
   position: relative;
+  transition: all .5s;
+  border: solid 2px var(--light-primary);
+}
+
+.btn-main:hover{
+  background-color: var(--quinary);
+  color: var(--light-primary);
+
 }
 
 .btn-tan{
@@ -174,6 +184,13 @@ section {
   width: max-content;
   z-index: 5;
   position: relative;
+  border: solid 2px var(--secondary);
+  transition: all 0.5s;
+}
+
+.btn-tan:hover{
+  background-color: var(--quinary);
+  color: var(--secondary);
 }
 
 .center-pos-pic{
@@ -455,6 +472,7 @@ textarea{
   top: 3rem;
   left: -2rem;
   width: 15rem;
+  padding-bottom: 1rem;
 }
 
 .dt-header{
@@ -687,6 +705,33 @@ textarea{
   list-style-type: none;
 }
 
+/* stroke */
+.menu li a {
+  position: relative;
+  display: block;
+  max-width: max-content;
+}
+
+.menu li a, .menu li a:after{
+  transition: all .5s;
+}
+.menu li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+.menu li a:hover:after {
+  width: 100%;
+}
+
+
 .menu-header{
   display: flex;
   justify-content: space-between;
@@ -742,6 +787,11 @@ textarea{
   font-weight: 700;
   color: var(--quinary);
   text-decoration: none;
+  transition: 0.5s;
+}
+
+.phone-number:hover{
+  opacity: 0.5;
 }
 
 .options-choices{
@@ -1052,6 +1102,11 @@ textarea{
     height: 440px;
   }
 
+  .hero--text p{
+    max-width: 950px;
+    margin: auto;
+  }
+
   .logo{
     max-width: 240px;
   }
@@ -1095,5 +1150,16 @@ textarea{
   .steps ol, .works ol{
     max-width: 650px;
     margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  :root{
+    --padding: 80px;
+    --neg-padding: -80px;
+  }
+
+  .hero img{
+    height: 550px;
   }
 }
