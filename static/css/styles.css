@@ -267,6 +267,9 @@ section {
 .carbon-oak{
   background-image: url("/images/carbon.jpg");
 }
+.more{
+  background-image: url("/images/call.jpeg")
+}
 .cobalt-blue{
   background-color: #2A2E5C;
 }
@@ -320,6 +323,7 @@ section {
   min-width: 92px;
   border-radius: 5px;
   background-size: cover;
+  max-width: 96px;
 }
 .choices p, .color-choices p, .options-choices p{
   text-align: center;
@@ -631,7 +635,7 @@ textarea{
 .heading-prem::after{
   position: absolute;
   top: 0;
-  right: -28px;
+  right: -30px;
   content: "$$$";
     color: #b7a68e;
     font-family: 'Lato', sans-serif;
@@ -639,7 +643,7 @@ textarea{
 .heading-exp::after{
   position: absolute;
   top: 0;
-  right: -36px;
+  right: -38px;
   content: "$$$$";
     color: #b7a68e;
     font-family: 'Lato', sans-serif;
@@ -1026,7 +1030,7 @@ textarea{
 }
 
 .color-choices>div{
-  max-width: 117px;
+  max-width: 96px;
 }
 
 
@@ -1159,7 +1163,25 @@ textarea{
     --neg-padding: -80px;
   }
 
+  .hero-section{
+    padding: 0;
+  }
+
+  .hero-section p{
+    padding:0 var(--padding);
+  }
+
   .hero img{
     height: 550px;
+    border-radius: 0;
+  }
+
+  .residential img{
+    object-position: 50% 62%;
+  }
+
+  .secondary-hero{
+    border-radius: 0;
+    width: 100vw;
   }
 }

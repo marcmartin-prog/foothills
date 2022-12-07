@@ -245,45 +245,9 @@ body.lb-disable-scrolling {
 
 @media only screen and (min-width: 760px){
   .gallery-parent>a{
-    flex-basis: 31%;
+    flex-basis: 22%;
   }
   .gallery-parent>a>img{
-    height: 28vw;
-  }
-}
-
-@media only screen and (min-width: 1024px){
-
-    .gallery-parent{
-      width: 40rem;
-      margin: auto;
-
-    }
-    .gallery-parent>a>img{
-      width: 40rem;
-      height: 450px;
-    }
-    #prev-btn, #next-btn{
-      display: block;
-      position: absolute;
-    }
-    #prev-btn{
-      transform: rotate(180deg);
-      top: 40%;
-      left: 3rem;
-    }
-    #next-btn{
-      top: 40%;
-      right: 3rem;
-    }
-}
-
-@media only screen and (min-width: 1360px){
-  .gallery-parent{
-    width: 60rem;
-  }
-  .gallery-parent>a>img{
-    width: 60rem;
-    height: 650px;
+    height: 18vw;
   }
 }
