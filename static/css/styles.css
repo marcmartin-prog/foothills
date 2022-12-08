@@ -221,9 +221,20 @@ section {
   border-radius: 5px;
 }
 
+.choice-white-background h2{
+  position: relative;
+  top: -18px;
+}
 .choice h3{
   color: var(--primary);
   font-size: 1.06rem;
+}
+
+.choice-white-background{
+  background-color: var(--white);
+  margin-top: 18px;
+  padding-bottom: 36px;
+  margin-bottom: -36px;
 }
 
 .choices{
@@ -1004,6 +1015,7 @@ textarea{
   background-color: var(--white);
 }
 
+
 .works{
   padding-top: 30px;
 }
@@ -1033,7 +1045,9 @@ textarea{
   max-width: 96px;
 }
 
-
+.half-height{
+  height: 400px;
+}
 
 .hero img{
   height: 400px;
@@ -1055,6 +1069,11 @@ textarea{
   width: 100%;
 }
 
+.rs-points ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 
 }
 
@@ -1062,23 +1081,19 @@ textarea{
 @media only screen and (min-width: 1024px){
 
   :root{
-    --padding: 40px;
-    --neg-padding: -40px;
+    --padding: 80px;
+    --neg-padding: -80px;
   }
 
   h1{
     font-size: 2.5rem;
   }
 
-
   .choice h2:not(.operators h2) {
-    background-color: unset;
-    color: var(--primary);
-    font-size: 1.875rem;
-    padding: 7px 15px;
-    border-radius: 5px;
+
     text-align: left;
 }
+
 
   .dt-header{
     display: flex;
@@ -1109,6 +1124,34 @@ textarea{
   .hero--text p{
     max-width: 950px;
     margin: auto;
+  }
+
+  .hero-section{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .hero-section p{
+    padding:0 var(--padding);
+  }
+
+  .hero img{
+    height: 550px;
+    border-radius: 0;
+  }
+
+  .residential img{
+    object-position: 50% 62%;
+  }
+
+  .rs-points{
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+  }
+
+  .secondary-hero{
+    border-radius: 0;
+    width: 100vw;
   }
 
   .logo{
@@ -1155,33 +1198,29 @@ textarea{
     max-width: 650px;
     margin: auto;
   }
+
+  .video p{
+    text-align: center;
+  }
+  .video div{
+    margin: auto;
+    max-width: 650px;
+
+  }
 }
 
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1366px){
+
   :root{
-    --padding: 80px;
-    --neg-padding: -80px;
+    --padding: 20vw;
+    --neg-padding: -20vw;
   }
 
-  .hero-section{
-    padding: 0;
-  }
+    .hero img{
+      height: 650px;
+    }
 
-  .hero-section p{
-    padding:0 var(--padding);
-  }
-
-  .hero img{
-    height: 550px;
-    border-radius: 0;
-  }
-
-  .residential img{
-    object-position: 50% 62%;
-  }
-
-  .secondary-hero{
-    border-radius: 0;
-    width: 100vw;
-  }
+    .secondary-hero{
+      max-height: 34vw;
+    }
 }

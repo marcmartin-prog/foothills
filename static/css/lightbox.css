@@ -251,3 +251,9 @@ body.lb-disable-scrolling {
     height: 18vw;
   }
 }
+
+@media only screen and (min-width: 1366px){
+  .gallery-parent>a>img{
+    height: 13vw;
+  }
+}
