@@ -1096,6 +1096,15 @@ textarea{
  textarea{
    width: 100%;
  }
+
+ .choices, .color-choices{
+   gap: 3%;
+ }
+
+.choices>div{
+  max-width: 144px;
+}
+
   .choice h2:not(.operators h2) {
 
     text-align: left;
@@ -1156,6 +1165,10 @@ textarea{
   .hero img{
     height: 550px;
     border-radius: 0;
+  }
+
+  .ms-colors{
+    padding-bottom: 24px;
   }
 
   .options-choices > div{
