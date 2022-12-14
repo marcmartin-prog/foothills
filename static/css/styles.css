@@ -149,7 +149,7 @@ section {
 
 .btn-main{
   background-color: var(--light-primary);
-  padding: 8px 50px;
+  padding: 8px 49px;
   border-radius: 10px;
   font-size: 24px;
   font-weight: 700;
@@ -162,6 +162,8 @@ section {
   position: relative;
   transition: all .5s;
   border: solid 2px var(--light-primary);
+  white-space: nowrap;
+
 }
 
 .btn-main:hover{
@@ -172,7 +174,7 @@ section {
 
 .btn-tan{
   background-color: var(--secondary);
-  padding: 8px 29px;
+  padding: 8px 28px;
   border-radius: 10px;
   font-size: 24px;
   font-weight: 700;
@@ -180,11 +182,12 @@ section {
   color: var(--quinary);
   margin: 10px auto;
   display: block;
-  width: max-content;
+  max-width: max-content;
   z-index: 5;
   position: relative;
   border: solid 2px var(--secondary);
   transition: all 0.5s;
+  white-space: nowrap;
 }
 
 .btn-tan:hover{
