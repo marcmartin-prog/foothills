@@ -17,10 +17,20 @@
      </div>
      <p class="rev-text brown-text big-p"> <span itemprop="reviewBody"> {{ .review_text }} </span> </p>
      <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><h5 class="rev-name light-tan-text">-{{ .author_title }} </h5></span></span>
-     <p hidden> {{ .review_rating }}</p>
+     <p hidden class="rating-number"> {{ .review_rating }}</p>
 
    </div>
    {{end}}
 
  </div>
 </div>
+<script type="text/javascript">
+   let reviews = document.querySelectorAll('.review')
+   var i;
+
+   for(i=0; i < reviews.length; i++){
+     ratings[i].
+   }
+
+   console.log(reviews)
+</script>
