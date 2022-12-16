@@ -9,11 +9,7 @@
 
    <div  id="_review8" itemprop="review" itemscope itemtype="http://schema.org/Review" class="review">
      <div class="rating">
-        <img src="/images/star.svg" alt="star rating">
-        <img src="/images/star.svg" alt="star rating">
-        <img src="/images/star.svg" alt="star rating">
-        <img src="/images/star.svg" alt="star rating">
-        <img src="/images/star.svg" alt="star rating">
+
      </div>
      <p class="rev-text brown-text big-p"> <span itemprop="reviewBody"> {{ .review_text }} </span> </p>
      <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><h5 class="rev-name light-tan-text">-{{ .author_title }} </h5></span></span>
@@ -25,12 +21,27 @@
  </div>
 </div>
 <script type="text/javascript">
+
+  //adds the correct amount of stars to the review
    let reviews = document.querySelectorAll('.review')
    var i;
 
    for(i=0; i < reviews.length; i++){
-     ratings[i].
+     reviews[i].classList.add(i)
    }
 
-   console.log(reviews)
+   for (i=0; i<12; i++){
+     review = document.getElementsByClassName(i)
+     let rating = review[0].children[3].innerHTML
+     let ratingNumber = Number(rating);
+     let starParent = review[0].children[0];
+     for (r=0; r<ratingNumber; r++){
+       starParent.innerHTML += "<img src='/images/star.svg' alt='star rating'>"
+     }
+
+
+
+   }
+
+
 </script>
