@@ -438,6 +438,19 @@ input:not(.btn-main):not(.checkbox){
   height: 50px;
 }
 
+option, select{
+  color: var(--secondary);
+  font-weight: normal;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.25rem;
+  margin: 10px 0;
+}
+
+select {
+  width: 50%;
+  height: 50px;
+}
+
 textarea{
   width: 95%;
   height: 300px;
