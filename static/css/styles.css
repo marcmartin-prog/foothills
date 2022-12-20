@@ -1131,6 +1131,10 @@ textarea{
   font-size: 22px;
 }
 
+.cust-res-hero{
+  object-position: 50% 69%;
+}
+
 
   .dt-header{
     display: flex;
@@ -1181,6 +1185,10 @@ textarea{
   .hero img{
     height: 550px;
     border-radius: 0;
+  }
+
+  .home-hero img{
+    object-position: 50% 69%;
   }
 
   .ms-colors{
@@ -1280,6 +1288,7 @@ textarea{
 
     .hero img{
       height: 650px;
+      width: 100vw;
     }
 
     .profile-parent{
