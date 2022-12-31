@@ -1,0 +1,30 @@
+
+[[redirects]]
+  from = "/rolling-steel-coiling-type"
+  to = "/rolling-steel"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/commercial-sectional"
+  to = "/commercial-doors"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/commercial"
+  to = "/commercial-doors"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/openers-and-remotes"
+  to = "/commercial-operators"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/id6"
+  to = "/"
+  status = 301
+  force = true
