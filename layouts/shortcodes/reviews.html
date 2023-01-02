@@ -4,7 +4,7 @@
   {{ $reviews := getJSON "/data/reviews.json"}}
    <div class="reviews-slider disable-scrollbars">
 
-   {{ $data_first := index $reviews 0 }}
+
    {{ range $reviews}}
 
      <div  id="_review8" itemprop="review" itemscope itemtype="http://schema.org/Review" class="review">
