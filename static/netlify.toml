@@ -28,3 +28,33 @@
   to = "/"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/raisedflush-panel.html"
+  to = "/commercial-doors"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/openers-and-remotes.html"
+  to = "/commercial-operators
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/commercial"
+  to = "/commercial-doors"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/about-us"
+  to = "/about"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/the-difference-in-doors"
+  to = "/"
+  status = 301
+  force = true
