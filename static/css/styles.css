@@ -1228,6 +1228,7 @@ textarea{
     align-items: center;
     max-width: 800px;
     margin: auto;
+    gap: 1rem;
   }
 
   .menu{
