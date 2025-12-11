@@ -626,6 +626,16 @@ textarea{
   padding-bottom: 10px;
 }
 
+
+.header-row-cont a{
+  margin-left: auto;
+}
+
+.header-row-img img{
+  max-width: 220px;
+  margin-right: auto;
+}
+
 .hero img{
   height: 260px;
   width: 150%;
@@ -1167,6 +1177,10 @@ textarea{
 
   .header-row{
     display: block;
+  }
+
+  .header-row-cont{
+    display: flex;
   }
 
   .hero img{
