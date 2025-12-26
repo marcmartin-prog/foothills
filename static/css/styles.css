@@ -972,6 +972,7 @@ textarea{
 }
 .suppliers{
   padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .suppliers p{
@@ -1007,7 +1008,10 @@ textarea{
 .clear{
   background-color: #f8f8f8;
 }
-.tinted, .clear{
+.frosted{
+  background-color: #e8eceb;
+}
+.tinted, .clear, .frosted{
   height: 92px;
   width: 100%;
   border-radius: 5px;

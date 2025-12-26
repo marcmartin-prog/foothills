@@ -1,6 +1,6 @@
 baseURL: https://foothillsoverheaddoors.com/
 languageCode: en-us
-title: Foothills Overhead Doors.
+title: Foothills Overhead Doors
 timeout: 180000
 module:
   imports:
