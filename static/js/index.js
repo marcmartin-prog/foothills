@@ -34,6 +34,8 @@ const dropdown = document.querySelector('#dropdown');
 const dropdownEl = document.querySelector('#dropdown-element');
 const dropdownAbout = document.querySelector('#dropdown-m-com');
 const dropdownAboutEl = document.querySelector('#dropdown-el-m-com');
+const dropdownfaq = document.querySelector('#dropdown-m-faq');
+const dropdownfaqEl = document.querySelector('#dropdown-el-m-faq');
 
 dropdownAbout.addEventListener('click', function(){
   if(dropdownAboutEl.style.display == 'flex'){
@@ -52,6 +54,16 @@ dropdown.addEventListener('click', function(){
   }else{
     dropdownEl.style.display = 'flex';
     dropdown.classList.add('active-dropdown');
+  }
+});
+
+dropdownfaq.addEventListener('click', function(){
+  if(dropdownfaqEl.style.display == 'flex'){
+    dropdownfaqEl.style.display = 'none';
+    dropdownfaq.classList.remove('active-dropdown');
+  }else{
+    dropdownfaqEl.style.display = 'flex';
+    dropdownfaq.classList.add('active-dropdown');
   }
 });
 
@@ -80,6 +92,19 @@ dropdownAboutDT.addEventListener('click', function(){
   }else{
     dropdownAboutElDT.style.display = 'flex';
     dropdownAboutDT.classList.add('active-dropdown-dt');
+  }
+});
+
+const dropdownfaqDT = document.querySelector('#dropdown-faq-dt');
+const dropdownfaqElDT = document.querySelector('#dropdown-faq-element-dt');
+
+dropdownfaqDT.addEventListener('click', function(){
+  if(dropdownfaqElDT.style.display == 'flex'){
+    dropdownfaqElDT.style.display = 'none';
+    dropdownfaqDT.classList.remove('active-dropdown-dt');
+  }else{
+    dropdownfaqElDT.style.display = 'flex';
+    dropdownfaqDT.classList.add('active-dropdown-dt');
   }
 });
 
